@@ -1,0 +1,9 @@
+# git ignore fle
+# comments start with hash
+
+#ignore build directory
+/build
+
+#ignore pbxuser and perspectivev3
+*.pbxuser
+*.perspectivev3

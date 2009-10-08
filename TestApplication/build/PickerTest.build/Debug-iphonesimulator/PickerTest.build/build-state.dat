@@ -1,0 +1,617 @@
+TPickerTest
+v7
+r0
+t276643720.796665
+cCheck dependencies
+cProcessInfoPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Info.plist PickerTest-Info.plist
+cCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/Cars.plist English.lproj/Cars.plist
+cCompileXIB /Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib
+cCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/States.plist English.lproj/States.plist
+cCpResource build/Debug-iphonesimulator/PickerTest.app/downArrow.png ../Source/downArrow.png
+cProcessPCH /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch.gch PickerTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main.o /Users/scottandrew/Sources/NWPickerField/TestApplication/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o /Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o /Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest normal i386
+cGenerateDSYMFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app.dSYM /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest
+cTouch /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004AB03E2B00000000000000EE
+t1253064235
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A821911000000000026EE30
+t1250040081
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A765094000000000027E880
+t1249267860
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7650820000000000001355
+t1249267842
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E970000000000000788
+t1249668759
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6F5900000000016721E0
+t1249668953
+s23536096
+
+N/Users/scottandrew/Sources/NWPickerField/NSString+NSArrayExtension.h
+c000000004ACD04BF000000000000075D
+t1254950079
+s1885
+
+N/Users/scottandrew/Sources/NWPickerField/NWPickerField.h
+c000000004ACD02CB0000000000000BC3
+t1254949579
+s3011
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/NWPickerView.h
+c000000004ACD01DA000000000000083B
+t1254949338
+s2107
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/Source/NSString+NSArrayExtension.h
+c000000004ACD04BF000000000000075D
+t1254950079
+s1885
+
+N/Users/scottandrew/Sources/NWPickerField/Source/NWPickerField.h
+c000000004ACD02CB0000000000000BC3
+t1254949579
+s3011
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/Source/NWPickerView.h
+c000000004ACD01DA000000000000083B
+t1254949338
+s2107
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m
+c000000004ACD05B500000000000008CF
+t1254950325
+s2255
+i"NSString+NSArrayExtension.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.h
+c000000004ACD02CB0000000000000BC3
+t1254949579
+s3011
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m
+c000000004ACD05D70000000000001C0E
+t1254950359
+s7182
+i"NWPickerField.h"
+i"NSString+NSArrayExtension.h"
+i"NWPickerView.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m
+c000000004ACD018500000000000011A2
+t1254949253
+s4514
+i"NWPickerView.h"
+i"NWPickerField.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m
+c000000004ACD05B500000000000008CF
+t1254950325
+s2255
+i"NSString+NSArrayExtension.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.h
+c000000004ACD02CB0000000000000BC3
+t1254949579
+s3011
+i<Foundation/Foundation.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m
+c000000004ACD08040000000000001B8B
+t1254950916
+s7051
+i"NWPickerField.h"
+i"NSString+NSArrayExtension.h"
+i"NWPickerView.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m
+c000000004ACD018500000000000011A2
+t1254949253
+s4514
+i"NWPickerView.h"
+i"NWPickerField.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/downArrow.png
+c000000004AC134870000000000000BA4
+t1254175879
+s2980
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/../downArrow.png
+c000000004AC134870000000000000BA4
+t1254175879
+s2980
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/Cars.plist
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/FormViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/NSString+NSArrayExtension.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/PickerTestAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/States.plist
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/Cars.plist
+c000000004ACAD0670000000000000311
+t1254805607
+s785
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib
+c000000004ACCDE5A00000000000082D0
+t1254940250
+s33488
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/States.plist
+c000000004ACACE59000000000000060E
+t1254805081
+s1550
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.h
+c000000004ACD0479000000000000018C
+t1254950009
+s396
+i<UIKit/UIKit.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m
+c000000004ACD0486000000000000097F
+t1254950022
+s2431
+i"FormViewController.h"
+i"NWPickerField.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/MainWindow.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/NWPickerField.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/NWPickerView.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest-Info.plist
+c000000004ABCFE81000000000000038D
+t1253899905
+s909
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.h
+c000000004ACD048E00000000000001FF
+t1254950030
+s511
+i<UIKit/UIKit.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m
+c000000004ACD045900000000000003E2
+t1254949977
+s994
+i"PickerTestAppDelegate.h"
+i"FormViewController.h"
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest_Prefix.pch
+c000000004ABCFE8100000000000000BD
+t1253899905
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app
+t1254950920
+s272
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app.dSYM
+t1254950920
+s102
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Cars.plist
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/Cars.plist
+t1254940033
+s208
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/MainWindow.nib
+t1254940270
+s2741
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/States.plist
+t1254940033
+s655
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Frameworks/NWPickerField
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Info.plist
+t1254940033
+s574
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/MainWindow.nib
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest
+t1254950920
+s35252
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest-Info.plist
+t1254940033
+s494
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PkgInfo
+t1254940033
+s8
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/States.plist
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/downArrow.png
+t1254950624
+s2980
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o
+t1254950336
+s34920
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o
+t1254950624
+s6664
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o
+t1254950920
+s31172
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o
+t1254950624
+s23528
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTest.LinkFileList
+c000000004ACCDE6E00000000000003B1
+t1254940270
+s945
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o
+t1254950336
+s38664
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main-B5E79E22702BE484.o
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main.o
+t1254940035
+s5980
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/downArrow.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/TestApplication/main.m
+c000000004ABCFE820000000000000168
+t1253899906
+s360
+i<UIKit/UIKit.h>
+
+N/Users/scottandrew/Sources/NWPickerField/build/Debug-iphonesimulator/NWPickerField
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/scottandrew/Sources/NWPickerField/build/Debug-iphonesimulator/NWPickerField/NWPickerField
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch.gch
+t1254940035
+s13034960
+
+NPickerTest-Info.plist
+c000000004ABCFE81000000000000038D
+t1253899905
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276643720#276643720#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o /Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/FormViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o /Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643136.365727
+e276643136.538051
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m276643136#276643136#0(0"0(0#0#77"/Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m4300882208#2205"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/FormViewController.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/FormViewController.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643136.538136
+e276643136.672428
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m276643136#276643136#0(0"0(0#0#87"/Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m4300882208#2222"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../NSString+NSArrayExtension.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643424.796719
+e276643424.863754
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m276643424#276643424#0(0"0(0#0#94"/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m4300882208#2229"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NSString+NSArrayExtension.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NSString+NSArrayExtension.o /Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/NSString+NSArrayExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643159.898883
+e276643160.043488
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m276643159#276643160#0(0"0(0#0#75"/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m4300882208#2198"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerField.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643720.588777
+e276643720.751881
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m276643720#276643720#0(0"0(0#0#82"/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m4300882208#2205"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerField.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerField.o /Users/scottandrew/Sources/NWPickerField/TestApplication/NWPickerField.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643136.536767
+e276643136.628070
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m276643136#276643136#0(0"0(0#0#74"/Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m4300882208#2196"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../NWPickerView.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643424.698402
+e276643424.811885
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m276643424#276643424#0(0"0(0#0#81"/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m4300882208#2203"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/NWPickerView.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/NWPickerView.o /Users/scottandrew/Sources/NWPickerField/TestApplication/NWPickerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o /Users/scottandrew/Sources/NWPickerField/TestApplication/Classes/PickerTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o /Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276643136.628171
+e276643136.703377
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m276643136#276643136#0(0"0(0#0#80"/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m4300882208#2211"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTestAppDelegate.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTestAppDelegate.o0#
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main-B5E79E22702BE484.o /Users/scottandrew/Sources/NWPickerField/TestApplication/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main.o /Users/scottandrew/Sources/NWPickerField/TestApplication/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s276632835.819089
+e276632835.982419
+r1
+xCompileC
+xbuild/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main.o
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/scottandrew/Sources/NWPickerField/TestApplication/main.m276632835#276632835#0(0"0(0#0#63"/Users/scottandrew/Sources/NWPickerField/TestApplication/main.m4300882208#2177"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -include /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/main.m -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib
+s276633070.105109
+e276633070.473797
+r1
+xCompileXIB
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib
+lSLF07#2@39"CompileXIB English.lproj/MainWindow.xib276633070#276633070#0(0"0(0#0#85"/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib4300882208#627"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/MainWindow.nib /Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/MainWindow.xib0#
+
+CCompileXIB /Users/scottandrew/Sources/NWPickerField/TestApplication/MainWindow.xib
+r0
+
+CCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Cars.plist Classes/Cars.plist
+r0
+
+CCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/Cars.plist English.lproj/Cars.plist
+s276632833.152364
+e276632833.693597
+r1
+xCopyPlistFile
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/Cars.plist
+xEnglish.lproj/Cars.plist
+lSLF07#2@29"Copy English.lproj/Cars.plist276632833#276632833#0(0"0(0#0#81"/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/Cars.plist4300882208#514"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 English.lproj/Cars.plist --outdir /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj0#
+
+CCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/States.plist English.lproj/States.plist
+s276632833.694595
+e276632833.723716
+r1
+xCopyPlistFile
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj/States.plist
+xEnglish.lproj/States.plist
+lSLF07#2@31"Copy English.lproj/States.plist276632833#276632833#0(0"0(0#0#83"/Users/scottandrew/Sources/NWPickerField/TestApplication/English.lproj/States.plist4300882208#516"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 English.lproj/States.plist --outdir /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/English.lproj0#
+
+CCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest-Info.plist PickerTest-Info.plist
+s276632833.134315
+e276632833.693435
+r1
+xCopyPlistFile
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest-Info.plist
+xPickerTest-Info.plist
+lSLF07#2@26"Copy PickerTest-Info.plist276632833#276632833#0(0"0(0#0#78"/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest-Info.plist4300882208#497"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 PickerTest-Info.plist --outdir /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app0#
+
+CCopyPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/States.plist Classes/States.plist
+r0
+
+CCpResource build/Debug-iphonesimulator/PickerTest.app/downArrow.png ../Source/downArrow.png
+s276643424.652942
+e276643424.696021
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PickerTest.app/downArrow.png
+x../Source/downArrow.png
+lSLF07#2@28"Copy ../Source/downArrow.png276643424#276643424#0(0"0(0#0#80"/Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/downArrow.png4300882208#586"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/scottandrew/Sources/NWPickerField/TestApplication/../Source/downArrow.png /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app0#
+
+CCpResource build/Debug-iphonesimulator/PickerTest.app/downArrow.png ../downArrow.png
+s276632833.723814
+e276632833.776965
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/PickerTest.app/downArrow.png
+x../downArrow.png
+lSLF07#2@21"Copy ../downArrow.png276632833#276632833#0(0"0(0#0#73"/Users/scottandrew/Sources/NWPickerField/TestApplication/../downArrow.png4300882208#579"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/scottandrew/Sources/NWPickerField/TestApplication/../downArrow.png /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app0#
+
+CCpResource build/Debug-iphonesimulator/PickerTest.app/downArrow.png downArrow.png
+r0
+
+CGenerateDSYMFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app.dSYM /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest
+s276643720.776072
+e276643720.793656
+r1
+xGenerateDSYMFile
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app.dSYM
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/PickerTest.app.dSYM build/Debug-iphonesimulator/PickerTest.app/PickerTest276643720#276643720#0(0"0(0#0#110"/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest4300882208#508"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app.dSYM0#
+
+CLd /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest normal i386
+s276643720.751987
+e276643720.775957
+r1
+xLd
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest
+xnormal
+xi386
+lSLF07#2@115"Link /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest276643720#276643720#0(0"0(0#0#0"4300882208#1029"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -filelist /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/Objects-normal/i386/PickerTest.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PickerTest0#
+
+CPBXCp build/Debug-iphonesimulator/PickerTest.app/Frameworks/NWPickerField /Users/scottandrew/Sources/NWPickerField/build/Debug-iphonesimulator/NWPickerField
+r0
+
+CProcessInfoPlistFile /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Info.plist PickerTest-Info.plist
+s276632833.006388
+e276632833.134202
+r1
+xProcessInfoPlistFile
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Info.plist
+xPickerTest-Info.plist
+lSLF07#2@29"Process PickerTest-Info.plist276632833#276632833#0(0"0(0#0#78"/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest-Info.plist31244220637446252#604"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility PickerTest-Info.plist -genpkginfo /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app/Info.plist0#
+
+CProcessPCH /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch.gch PickerTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s276632834.448102
+e276632835.818786
+r1
+xProcessPCH
+x/var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch.gch
+xPickerTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile PickerTest_Prefix.pch276632834#276632835#0(0"0(0#0#78"/Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest_Prefix.pch4300882208#2048"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-generated-files.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-own-target-headers.hmap -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-all-target-headers.hmap -iquote /Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/PickerTest-project-headers.hmap -F/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/include -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources/i386 -I/Users/scottandrew/Sources/NWPickerField/TestApplication/build/PickerTest.build/Debug-iphonesimulator/PickerTest.build/DerivedSources -c /Users/scottandrew/Sources/NWPickerField/TestApplication/PickerTest_Prefix.pch -o /var/folders/Wb/WbdG+1lbFaOuiXPkBRsmrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PickerTest_Prefix-btqiqmxmyyyxmzatjohyffvrrgjy/PickerTest_Prefix.pch.gch0#
+
+CTouch /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app
+s276643720.793754
+e276643720.796623
+r1
+xTouch
+x/Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app
+lSLF07#2@105"Touch /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app276643720#276643720#0(0"0(0#0#0"4300882208#379"    cd /Users/scottandrew/Sources/NWPickerField/TestApplication    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/scottandrew/Sources/NWPickerField/TestApplication/build/Debug-iphonesimulator/PickerTest.app0#
+

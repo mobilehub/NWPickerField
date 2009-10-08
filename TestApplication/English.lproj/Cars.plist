@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Red</string>
+		<string>Green</string>
+		<string>Blue</string>
+		<string>Green</string>
+		<string>Silver</string>
+		<string>White</string>
+		<string>Other</string>
+	</array>
+	<array>
+		<string>1999</string>
+		<string>2000</string>
+		<string>2001</string>
+		<string>2002</string>
+		<string>2003</string>
+		<string>2004</string>
+		<string>2005</string>
+		<string>2006</string>
+		<string>2007</string>
+		<string>2009</string>
+		<string>2010</string>
+	</array>
+	<array>
+		<string>Ford</string>
+		<string>Honda</string>
+		<string>Toyota</string>
+		<string>Saturn</string>
+	</array>
+</array>
+</plist>
